@@ -66,12 +66,11 @@ ul {
 
 .banner {
   margin: 70px 0;
-  
-  
 }
-.banner img {
+.banner .container img {
   width: 100%;
-  border-radius: 50px;
+  background-color: #2d8dd5;
+  box-shadow: -1px 14px 31px 0 #0000001a, -2px 56px 56px 0 #00000017;
 }
 .feauturs .container {
   margin-bottom: 20px;
@@ -188,16 +187,16 @@ ul {
   border-radius: 30px;
 }
 
-.copy-right .container{
+.copy-right .container {
   margin-bottom: 40px;
- display: flex; 
- justify-content: space-between;
- text-align: center;
- align-items: center;
- color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  color: var(--black);
 }
-.copy-right .container p{
-   font-weight: 300;
-  font-size:  12px;
+.copy-right .container p {
+  font-weight: 300;
+  font-size: 12px;
   line-height: 14.6px;
 }
