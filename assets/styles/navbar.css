@@ -36,11 +36,14 @@ ul{
     width: 1170px;
   }                    
 }
+header{
+  position: sticky;
+  top: 0;
+}
 header .container{
   display: flex;
   justify-content: space-between;
   text-align: center;
-  position: sticky;
   padding:  20px 30px;
   background-color: var(--white);
   /* border: 1px solid #000000; */
