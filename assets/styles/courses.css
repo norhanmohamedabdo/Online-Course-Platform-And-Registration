@@ -71,40 +71,8 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
-/* .flex {
-  display: flex;
-  align-items: center;
-}
-.section-title {
-  margin: 20px 0;
-  font-size: var(--h2-size);
-  color: var(--title-color);
-}
-.section-description {
-  margin: 20px 0;
-  color: var(--text-color);
-  line-height: 1.5;
-}
-.text-center {
-  text-align: center;
-}
-.special-text {
-  color: var(--main-color);
-}
-.section-btn {
-  display: block;
-  min-width: 150px;
-  max-width: fit-content;
-  padding: 10px;
-  text-align: center;
-  color: var(--white);
-  background-color: var(--main-color);
-  border-radius: 2px;
-}
-.bg-white {
-  background-color: var(--white);} */
 .hero {
-  background-image: url(../images/ai.webp);
+  background-image: url(../images/hero-2.webp);
 }
 .hero .container {
   padding: 30px 0;
@@ -142,7 +110,10 @@ body {
   background-color: var(--black);
 }
 .col .container {
-  gap: 20px;
+  gap: 50px;
+}
+.col .container .card img {
+  width: 100%;
 }
 .col .container .card:last-child {
   flex-basis: 100%;
@@ -161,19 +132,25 @@ body {
   gap: 30px;
 }
 .courses-detalis .container .Contact-course {
+  width: 550px;
   padding: 10px;
-  gap: 20px;
+  justify-content: flex-start;
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, 0.116);
 }
+.courses-detalis .container .Contact-course .img {
+  width: 100%;
+}
 .courses-detalis .container .Contact-course .info h3 {
-  padding-bottom: 10px;
+  padding: 5px 0;
   font-size: 20px;
   font-weight: 500;
 }
 .courses-detalis .container .Contact-course .info p {
   font-size: 16px;
   font-weight: 300;
-  line-height: 20px;
   color: var(--black);
+}
+.courses-detalis .container .Contact-course:last-child {
+  flex-basis: 100%;
 }
