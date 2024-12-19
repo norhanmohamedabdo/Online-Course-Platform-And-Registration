@@ -58,6 +58,11 @@ body {
   line-height: 48px;
   color: var(--white);
 }
+ @media (max-width: 991px) {
+  .section-title-h1 {
+    font-size: var(--h2-size);
+  }
+ }
 .section-title-h2 {
   padding: 40px 0;
   font-size: var(--h2-size);
@@ -153,4 +158,24 @@ body {
 }
 .courses-detalis .container .Contact-course:last-child {
   flex-basis: 100%;
+}
+.slids {
+  margin: 40px 0;
+  gap: 90px;
+}
+.slids .slids-detalis {
+  line-height: 25px;
+  text-align: center;
+}
+.slids .slids-detalis img {
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: var(--blue);
+}
+.slids .slids-detalis p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #00000080;
 }
